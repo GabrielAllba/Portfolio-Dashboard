@@ -1,0 +1,21 @@
+
+.submit_button{
+    background: var(--form-button);
+    outline: none;
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    color: var(--form-button-text);
+    font-family: 'Inter-Regular';
+    transition: .2s ease;
+}
+.disable_button{
+    background: var(--form-button-disable);
+    outline: none;
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    color: var(--form-button-text-disable);
+    font-family: 'Inter-Regular';
+    transition: .2s ease;
+}

@@ -1,0 +1,152 @@
+.custom_container{
+    background: var(--navbar-background);
+    position: relative !important;
+    padding: 0;
+    margin: 0 !important;
+}
+.relative{
+    position: relative;
+    
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    background: var(--navbar-background);
+    border-bottom: 1px solid var(--card-border);
+    justify-content: center;
+    z-index: 2;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    margin: 0;
+
+    
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.avatar_container{
+    background: orange;
+    border: none;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 .5rem;
+
+}
+.link_container{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    position: absolute;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2.5rem !important;
+    height: auto !important;
+    transform: translateX(-50%);
+}
+.image{
+    width: 2rem;
+    height: auto;
+    margin-right: .5rem;
+}
+.margin{
+    margin: 0 .25rem;
+}
+@media screen and (max-width: 768px){
+    .avatar_container{
+        width: 3rem;
+        height: 3rem;
+
+    }   
+}
+.link_text{
+    padding: 0 1rem;
+  color: #5483F0;
+  text-decoration: none;
+}
+
+.height_100{
+    
+    height: 200vh;
+}
+
+.fix_content{
+    margin-top: 5.5rem;
+    
+    display: flex;
+    position: relative;
+}
+
+.side{
+    
+    display: flex;
+    position: relative;
+    width: 15rem;
+}
+.fixed_left{
+    display: flex;
+    position: sticky;
+    height: 100%;
+    width: 15rem;
+    
+    top: 0;
+    left: 0;
+    
+
+}
+.real_sidebar{
+    background: var(--navbar-background);
+    border-right:1px solid var(--card-border);
+    background: var(--navbar-background);
+    position: fixed;
+    top: 5.5rem;
+    height: 100%;
+    width: 15rem;
+
+}
+.real_content{
+    display: flex;
+    
+    background: var(--body-background);
+    width: 100%;
+    padding: 3rem;
+    
+
+}
+.icon{
+    margin-right: .5rem;
+    font-size: 1.2rem;
+}
+.list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 1rem;
+    width: 80%;
+    margin: .5rem 0;
+    color: #4E6893;
+}
+.list_active{
+    background: var(--button-background);
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    color: #5483F0;
+}
+.nodesign{
+    text-decoration: none;
+    
+}
+

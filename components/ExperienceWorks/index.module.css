@@ -1,0 +1,31 @@
+.toggle_container{
+    background: #12151C;
+    display: flex;
+    padding: 1rem;
+    border-radius: 5px;
+    width: max-content;
+}
+
+.no_active{
+    color: #5483F0;
+    text-align: center;
+    margin: auto;
+}
+
+.toggle{
+    display: flex;
+    margin: 0 .5rem;
+    cursor: pointer;
+}
+
+.date, .middle, .end{
+    color: #4E6893;
+}
+.date{
+    font-family: 'Inter-Bold';
+}
+
+.image{
+    width: 4rem;
+    height: auto;
+}

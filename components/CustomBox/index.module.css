@@ -1,0 +1,6 @@
+.box{
+    border-radius: 5px;
+    padding: 1rem;
+    background: var(--form-background);
+    border: 1px solid var(--form-border);
+}
