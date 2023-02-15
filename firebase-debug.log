@@ -1,0 +1,25 @@
+[debug] [2023-02-15T02:40:51.049Z] ----------------------------------------------------------------------
+[debug] [2023-02-15T02:40:51.051Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-15T02:40:51.051Z] CLI Version:   11.22.0
+[debug] [2023-02-15T02:40:51.051Z] Platform:      win32
+[debug] [2023-02-15T02:40:51.051Z] Node Version:  v18.12.1
+[debug] [2023-02-15T02:40:51.052Z] Time:          Wed Feb 15 2023 09:40:51 GMT+0700 (Western Indonesia Time)
+[debug] [2023-02-15T02:40:51.052Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-15T02:40:51.103Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-15T02:40:51.104Z] > authorizing via signed-in user (gabrielallbasy@gmail.com)
+[debug] [2023-02-15T02:40:51.104Z] [iam] checking project portfolio-dashboard-33a97 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-15T02:40:51.105Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions [none]
+[debug] [2023-02-15T02:40:51.106Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions x-goog-quota-user=projects/portfolio-dashboard-33a97
+[debug] [2023-02-15T02:40:51.106Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-15T02:40:52.266Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions 200
+[debug] [2023-02-15T02:40:52.266Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-15T02:40:52.267Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 [none]
+[debug] [2023-02-15T02:40:52.660Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 200
+[debug] [2023-02-15T02:40:52.660Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 {"projectId":"portfolio-dashboard-33a97","projectNumber":"870201524458","displayName":"portfolio-dashboard","name":"projects/portfolio-dashboard-33a97","resources":{"hostingSite":"portfolio-dashboard-33a97"},"state":"ACTIVE","etag":"1_0b20c455-312b-4d44-a7be-0c59171b9684"}
+[debug] [2023-02-15T02:41:12.635Z] TypeError: Cannot read properties of null (reading 'toString')
+    at ɵcodegenFunctionsDirectory (C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:222:18)
+    at async prepareFrameworks (C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:306:84)
+    at async deploy (C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
