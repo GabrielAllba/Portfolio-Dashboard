@@ -6,7 +6,7 @@ import Layout from 'components/Layout'
 import { ThemeProvider } from 'next-themes'
 import CustomBox from 'components/CustomBox'
 import classes from '../home.module.css'
-import Gradient from 'rgt'
+
 import Skills from 'components/skills'
 import CustomButton from 'components/CustomButton'
 import Badge from 'components/Badge'

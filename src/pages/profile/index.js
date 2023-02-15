@@ -11,7 +11,7 @@ import CustomBox from 'components/CustomBox';
 import Tooltip from "@mui/material/Tooltip";
 import Link from 'next/link';
 import Image from 'next/image';
-import Gradient from 'rgt'
+
 import CustomButton from 'components/CustomButton';
 
 function Profile(props){
@@ -124,9 +124,9 @@ function Profile(props){
               >
                 <div className={classes.form_input_container}>
                   <label className={classes.label} for="first">
-                    <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                    
                       Name
-                    </Gradient>
+                    
                   </label>
                   <input
                     className={classes.input}
@@ -141,9 +141,9 @@ function Profile(props){
                   style={{ marginBottom: "1rem" }}
                 >
                   <label className={classes.label} for="last">
-                    <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                    
                       Hero Sub Title
-                    </Gradient>
+                    
                   </label>
                   <input
                     className={classes.input}
@@ -157,9 +157,9 @@ function Profile(props){
                   style={{ marginBottom: "1rem" }}
                 >
                   <label className={classes.label} for="last">
-                    <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                    
                       Profile Picture
-                    </Gradient>
+                    
                   </label>
                   <input
                     className={classes.input + ' ' + classes.input_file}
@@ -195,9 +195,9 @@ function Profile(props){
               >
                 <div className={classes.form_input_container}>
                   <label className={classes.label} for="first">
-                    <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                    
                       Social Media Name
-                    </Gradient>
+                    
                   </label>
                   <input
                     className={classes.input}
@@ -212,9 +212,9 @@ function Profile(props){
                   style={{ marginBottom: "1rem" }}
                 >
                   <label className={classes.label} for="last">
-                    <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                    
                       Link
-                    </Gradient>
+                    
                   </label>
                   <input
                     className={classes.input}
@@ -228,9 +228,9 @@ function Profile(props){
                   style={{ marginBottom: "1rem" }}
                 >
                   <label className={classes.label} for="last">
-                    <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                    
                       Icon
-                    </Gradient>
+                    
                   </label>
                   <input
                     className={classes.input}

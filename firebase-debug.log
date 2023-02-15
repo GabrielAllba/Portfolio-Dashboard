@@ -23,3 +23,81 @@
     at async deploy (C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2023-02-15T02:43:56.088Z] ----------------------------------------------------------------------
+[debug] [2023-02-15T02:43:56.089Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-15T02:43:56.089Z] CLI Version:   11.23.1
+[debug] [2023-02-15T02:43:56.090Z] Platform:      win32
+[debug] [2023-02-15T02:43:56.090Z] Node Version:  v18.12.1
+[debug] [2023-02-15T02:43:56.090Z] Time:          Wed Feb 15 2023 09:43:56 GMT+0700 (Western Indonesia Time)
+[debug] [2023-02-15T02:43:56.090Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-15T02:43:56.137Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-15T02:43:56.138Z] > authorizing via signed-in user (gabrielallbasy@gmail.com)
+[debug] [2023-02-15T02:43:56.138Z] [iam] checking project portfolio-dashboard-33a97 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-15T02:43:56.139Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions [none]
+[debug] [2023-02-15T02:43:56.139Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions x-goog-quota-user=projects/portfolio-dashboard-33a97
+[debug] [2023-02-15T02:43:56.139Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-15T02:43:57.230Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions 200
+[debug] [2023-02-15T02:43:57.230Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-15T02:43:57.231Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 [none]
+[debug] [2023-02-15T02:43:57.859Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 200
+[debug] [2023-02-15T02:43:57.859Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 {"projectId":"portfolio-dashboard-33a97","projectNumber":"870201524458","displayName":"portfolio-dashboard","name":"projects/portfolio-dashboard-33a97","resources":{"hostingSite":"portfolio-dashboard-33a97"},"state":"ACTIVE","etag":"1_0b20c455-312b-4d44-a7be-0c59171b9684"}
+[debug] [2023-02-15T02:44:55.252Z] Error: Command failed: npm.cmd i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:871:11)
+    at execSync (node:child_process:943:15)
+    at prepareFrameworks (C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:371:42)
+    at async deploy (C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-02-15T02:46:04.456Z] ----------------------------------------------------------------------
+[debug] [2023-02-15T02:46:04.458Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --force
+[debug] [2023-02-15T02:46:04.458Z] CLI Version:   11.23.1
+[debug] [2023-02-15T02:46:04.458Z] Platform:      win32
+[debug] [2023-02-15T02:46:04.458Z] Node Version:  v18.12.1
+[debug] [2023-02-15T02:46:04.459Z] Time:          Wed Feb 15 2023 09:46:04 GMT+0700 (Western Indonesia Time)
+[debug] [2023-02-15T02:46:04.459Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-15T02:46:04.508Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-15T02:46:04.508Z] > authorizing via signed-in user (gabrielallbasy@gmail.com)
+[debug] [2023-02-15T02:46:04.508Z] [iam] checking project portfolio-dashboard-33a97 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-15T02:46:04.510Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions [none]
+[debug] [2023-02-15T02:46:04.510Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions x-goog-quota-user=projects/portfolio-dashboard-33a97
+[debug] [2023-02-15T02:46:04.510Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-15T02:46:05.644Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions 200
+[debug] [2023-02-15T02:46:05.644Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-15T02:46:05.645Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 [none]
+[debug] [2023-02-15T02:46:06.234Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 200
+[debug] [2023-02-15T02:46:06.234Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 {"projectId":"portfolio-dashboard-33a97","projectNumber":"870201524458","displayName":"portfolio-dashboard","name":"projects/portfolio-dashboard-33a97","resources":{"hostingSite":"portfolio-dashboard-33a97"},"state":"ACTIVE","etag":"1_0b20c455-312b-4d44-a7be-0c59171b9684"}
+[debug] [2023-02-15T02:46:23.355Z] Error: Command failed: npm.cmd i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:871:11)
+    at execSync (node:child_process:943:15)
+    at prepareFrameworks (C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:371:42)
+    at async deploy (C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-02-15T03:03:13.499Z] ----------------------------------------------------------------------
+[debug] [2023-02-15T03:03:13.500Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-15T03:03:13.501Z] CLI Version:   11.23.1
+[debug] [2023-02-15T03:03:13.501Z] Platform:      win32
+[debug] [2023-02-15T03:03:13.501Z] Node Version:  v18.12.1
+[debug] [2023-02-15T03:03:13.501Z] Time:          Wed Feb 15 2023 10:03:13 GMT+0700 (Western Indonesia Time)
+[debug] [2023-02-15T03:03:13.502Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-15T03:03:13.548Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-15T03:03:13.549Z] > authorizing via signed-in user (gabrielallbasy@gmail.com)
+[debug] [2023-02-15T03:03:13.549Z] [iam] checking project portfolio-dashboard-33a97 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-15T03:03:13.550Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions [none]
+[debug] [2023-02-15T03:03:13.551Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions x-goog-quota-user=projects/portfolio-dashboard-33a97
+[debug] [2023-02-15T03:03:13.551Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-15T03:03:14.655Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions 200
+[debug] [2023-02-15T03:03:14.655Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dashboard-33a97:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-15T03:03:14.656Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 [none]
+[debug] [2023-02-15T03:03:15.017Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 200
+[debug] [2023-02-15T03:03:15.017Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dashboard-33a97 {"projectId":"portfolio-dashboard-33a97","projectNumber":"870201524458","displayName":"portfolio-dashboard","name":"projects/portfolio-dashboard-33a97","resources":{"hostingSite":"portfolio-dashboard-33a97"},"state":"ACTIVE","etag":"1_0b20c455-312b-4d44-a7be-0c59171b9684"}
+[debug] [2023-02-15T03:03:43.667Z] Error: Command failed: npm.cmd i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:871:11)
+    at execSync (node:child_process:943:15)
+    at prepareFrameworks (C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:371:42)
+    at async deploy (C:\Users\riel\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.

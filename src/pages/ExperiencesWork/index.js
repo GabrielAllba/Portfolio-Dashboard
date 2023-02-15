@@ -10,7 +10,7 @@ import CustomBox from "components/CustomBox";
 import Tooltip from "@mui/material/Tooltip";
 import Link from "next/link";
 import Image from "next/image";
-import Gradient from "rgt";
+
 import CustomButton from "components/CustomButton";
 import Badge from "components/Badge";
 import ExperienceWork from "components/ExperienceWorks";
@@ -81,9 +81,9 @@ function ExperiencesWork  (props) {
                 >
                   <div className={classes.form_input_container}>
                     <label className={classes.label} for="first">
-                      <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                      
                         Experience Name
-                      </Gradient>
+                      
                     </label>
                     <input
                       className={classes.input}
@@ -96,9 +96,9 @@ function ExperiencesWork  (props) {
                     style={{ marginBottom: "1rem" }}
                   >
                     <label className={classes.label} for="last">
-                      <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                      
                         Description
-                      </Gradient>
+                      
                     </label>
                     <input className={classes.input} id="description" type="text" />
                   </div>
@@ -107,9 +107,9 @@ function ExperiencesWork  (props) {
                     style={{ marginBottom: "1rem" }}
                   >
                     <label className={classes.label} for="last">
-                      <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                      
                         Tools
-                      </Gradient>
+                      
                     </label>
                     <input className={classes.input} id="tools" />
                   </div>
@@ -118,9 +118,9 @@ function ExperiencesWork  (props) {
                     style={{ marginBottom: "1rem" }}
                   >
                     <label className={classes.label} for="last">
-                      <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                      
                         Start Date
-                      </Gradient>
+                      
                     </label>
                     <input className={classes.input} id="start_date"  type="date"/>
                   </div>
@@ -129,9 +129,9 @@ function ExperiencesWork  (props) {
                     style={{ marginBottom: "1rem" }}
                   >
                     <label className={classes.label} for="last">
-                      <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                      
                         End Date
-                      </Gradient>
+                      
                     </label>
                     <input className={classes.input} id="end_date"  type="date"/>
                   </div>
@@ -162,9 +162,9 @@ function ExperiencesWork  (props) {
                 >
                   <div className={classes.form_input_container}>
                     <label className={classes.label} for="first">
-                      <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                      
                         Work Name
-                      </Gradient>
+                      
                     </label>
                     <input
                       className={classes.input}
@@ -177,9 +177,9 @@ function ExperiencesWork  (props) {
                     style={{ marginBottom: "1rem" }}
                   >
                     <label className={classes.label} for="last">
-                      <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                      
                         Work Description
-                      </Gradient>
+                      
                     </label>
                     <input className={classes.input} id="description" type="text" />
                   </div>
@@ -188,9 +188,9 @@ function ExperiencesWork  (props) {
                     style={{ marginBottom: "1rem" }}
                   >
                     <label className={classes.label} for="last">
-                      <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                      
                         Image
-                      </Gradient>
+                      
                     </label>
                     <input className={classes.input} id="image" type="file"/>
                   </div>

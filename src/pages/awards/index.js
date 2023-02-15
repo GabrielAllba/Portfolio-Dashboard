@@ -10,7 +10,6 @@ import CustomBox from "components/CustomBox";
 import Tooltip from "@mui/material/Tooltip";
 import Link from "next/link";
 import Image from "next/image";
-import Gradient from "rgt";
 import CustomButton from "components/CustomButton";
 import AwardsComp from "components/AwardsComp";
 
@@ -46,9 +45,9 @@ function Awards(props) {
             >
               <div className={classes.form_input_container}>
                 <label className={classes.label} for="first">
-                  <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                  
                     Awards Name
-                  </Gradient>
+                  
                 </label>
                 <input
                   className={classes.input}
@@ -61,9 +60,9 @@ function Awards(props) {
                 style={{ marginBottom: "1rem" }}
               >
                 <label className={classes.label} for="last">
-                  <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                  
                     Information
-                  </Gradient>
+                  
                 </label>
                 <input className={classes.input} id="information" type="text" />
               </div>
@@ -72,9 +71,9 @@ function Awards(props) {
                 style={{ marginBottom: "1rem" }}
               >
                 <label className={classes.label} for="last">
-                  <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                  
                     Description
-                  </Gradient>
+                  
                 </label>
                 <input className={classes.input} id="description" type="text" />
               </div>
@@ -83,9 +82,9 @@ function Awards(props) {
                 style={{ marginBottom: "1rem" }}
               >
                 <label className={classes.label} for="last">
-                  <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                  
                     Tools
-                  </Gradient>
+                  
                 </label>
                 <input className={classes.input} id="tools" type="text" />
               </div>
@@ -94,9 +93,9 @@ function Awards(props) {
                 style={{ marginBottom: "1rem" }}
               >
                 <label className={classes.label} for="last">
-                  <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                  
                     Image
-                  </Gradient>
+                  
                 </label>
                 <input className={classes.input} id="image" type="file" />
               </div>

@@ -3,7 +3,7 @@ import classes from './index.module.css'
 import CustomBox from "components/CustomBox";
 import { ThemeProvider } from "next-themes";
 import ToggleTheme from "components/ToggleTheme";
-import Gradient from "rgt";
+
 import CustomButton from "components/CustomButton";
 import useInput from "../../hooks/use-input";
 import { useState } from "react";
@@ -56,9 +56,9 @@ function Login(props) {
             className={classes.form_title}
             style={{ margin: ".5rem 0", textAlign: "center" }}
           >
-            <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+            
               Login
-            </Gradient>
+            
           </h2>
           <p
             className={classes.form_desc}
@@ -69,9 +69,9 @@ function Login(props) {
           <form action="/send-data-here" method="post" className={classes.form}>
             <div className={classes.form_input_container}>
               <label className={classes.label} for="first">
-                <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                
                   Email
-                </Gradient>
+                
               </label>
               <input
                 className={classes.input}
@@ -90,9 +90,9 @@ function Login(props) {
               style={{ marginBottom: "1rem" }}
             >
               <label className={classes.label} for="last">
-                <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                
                   Password
-                </Gradient>
+                
               </label>
               <input
                 className={classes.input}

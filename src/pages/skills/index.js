@@ -10,7 +10,6 @@ import CustomBox from "components/CustomBox";
 import Tooltip from "@mui/material/Tooltip";
 import Link from "next/link";
 import Image from "next/image";
-import Gradient from "rgt";
 import CustomButton from "components/CustomButton";
 import Badge from "components/Badge";
 
@@ -78,9 +77,9 @@ function Skills(props) {
             >
               <div className={classes.form_input_container}>
                 <label className={classes.label} for="first">
-                  <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                  
                     Skill Name
-                  </Gradient>
+                  
                 </label>
                 <input className={classes.input} type="texg" id="skill_name" />
               </div>
@@ -89,9 +88,9 @@ function Skills(props) {
                 style={{ marginBottom: "1rem" }}
               >
                 <label className={classes.label} for="last">
-                  <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                  
                     Rate out of 10
-                  </Gradient>
+                  
                 </label>
                 <input className={classes.input} id="rate" type="number"/>
               </div>
@@ -100,9 +99,9 @@ function Skills(props) {
                 style={{ marginBottom: "1rem" }}
               >
                 <label className={classes.label} for="last">
-                  <Gradient dir="left-to-right" from="#A6C9FF" to="#E5CCFF">
+                  
                     Tools
-                  </Gradient>
+                  
                 </label>
                 <input className={classes.input} id="tools" />
               </div>
