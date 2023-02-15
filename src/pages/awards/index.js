@@ -44,7 +44,7 @@ function Awards(props) {
               className={classes.form}
             >
               <div className={classes.form_input_container}>
-                <label className={classes.label} for="first">
+                <label className={classes.label} htmlFor="first">
                   
                     Awards Name
                   
@@ -59,7 +59,7 @@ function Awards(props) {
                 className={classes.form_input_container}
                 style={{ marginBottom: "1rem" }}
               >
-                <label className={classes.label} for="last">
+                <label className={classes.label} htmlFor="last">
                   
                     Information
                   
@@ -70,7 +70,7 @@ function Awards(props) {
                 className={classes.form_input_container}
                 style={{ marginBottom: "1rem" }}
               >
-                <label className={classes.label} for="last">
+                <label className={classes.label} htmlFor="last">
                   
                     Description
                   
@@ -81,7 +81,7 @@ function Awards(props) {
                 className={classes.form_input_container}
                 style={{ marginBottom: "1rem" }}
               >
-                <label className={classes.label} for="last">
+                <label className={classes.label} htmlFor="last">
                   
                     Tools
                   
@@ -92,7 +92,7 @@ function Awards(props) {
                 className={classes.form_input_container}
                 style={{ marginBottom: "1rem" }}
               >
-                <label className={classes.label} for="last">
+                <label className={classes.label} htmlFor="last">
                   
                     Image
                   

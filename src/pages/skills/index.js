@@ -76,7 +76,7 @@ function Skills(props) {
               className={classes.form}
             >
               <div className={classes.form_input_container}>
-                <label className={classes.label} for="first">
+                <label className={classes.label} htmlFor="first">
                   
                     Skill Name
                   
@@ -87,7 +87,7 @@ function Skills(props) {
                 className={classes.form_input_container}
                 style={{ marginBottom: "1rem" }}
               >
-                <label className={classes.label} for="last">
+                <label className={classes.label} htmlFor="last">
                   
                     Rate out of 10
                   
@@ -98,7 +98,7 @@ function Skills(props) {
                 className={classes.form_input_container}
                 style={{ marginBottom: "1rem" }}
               >
-                <label className={classes.label} for="last">
+                <label className={classes.label} htmlFor="last">
                   
                     Tools
                   

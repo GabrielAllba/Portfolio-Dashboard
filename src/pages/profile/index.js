@@ -35,7 +35,7 @@ function Profile(props){
                     width={1000}
                     height={1000}
                     alt="image"
-                    quality="100"
+
                   ></Image>
                 </div>
                 <h3>Gabriel Allba Shemi Yuma</h3>
@@ -94,7 +94,7 @@ function Profile(props){
                       width={1000}
                       height={1000}
                       alt="image"
-                      quality="100"
+
                     ></Image>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ function Profile(props){
                 className={classes.form}
               >
                 <div className={classes.form_input_container}>
-                  <label className={classes.label} for="first">
+                  <label className={classes.label} htmlFor="first">
                     
                       Name
                     
@@ -140,7 +140,7 @@ function Profile(props){
                   className={classes.form_input_container}
                   style={{ marginBottom: "1rem" }}
                 >
-                  <label className={classes.label} for="last">
+                  <label className={classes.label} htmlFor="last">
                     
                       Hero Sub Title
                     
@@ -156,7 +156,7 @@ function Profile(props){
                   className={classes.form_input_container}
                   style={{ marginBottom: "1rem" }}
                 >
-                  <label className={classes.label} for="last">
+                  <label className={classes.label} htmlFor="last">
                     
                       Profile Picture
                     
@@ -194,7 +194,7 @@ function Profile(props){
                 className={classes.form}
               >
                 <div className={classes.form_input_container}>
-                  <label className={classes.label} for="first">
+                  <label className={classes.label} htmlFor="first">
                     
                       Social Media Name
                     
@@ -211,7 +211,7 @@ function Profile(props){
                   className={classes.form_input_container}
                   style={{ marginBottom: "1rem" }}
                 >
-                  <label className={classes.label} for="last">
+                  <label className={classes.label} htmlFor="last">
                     
                       Link
                     
@@ -227,7 +227,7 @@ function Profile(props){
                   className={classes.form_input_container}
                   style={{ marginBottom: "1rem" }}
                 >
-                  <label className={classes.label} for="last">
+                  <label className={classes.label} htmlFor="last">
                     
                       Icon
                     

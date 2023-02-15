@@ -49,7 +49,7 @@ function AwardsComp(){
                   width={1000}
                   height={1000}
                   alt="image"
-                  quality="100"
+
                 ></Image>
               </td>
               <td className={classes.data}>
@@ -70,7 +70,7 @@ function AwardsComp(){
                   width={1000}
                   height={1000}
                   alt="image"
-                  quality="100"
+                  
                 ></Image>
               </td>
               <td className={classes.data}>

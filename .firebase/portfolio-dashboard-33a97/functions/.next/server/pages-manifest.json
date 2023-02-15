@@ -1,12 +1,12 @@
 {
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/ExperiencesWork": "pages/ExperiencesWork.html",
   "/awards": "pages/awards.html",
-  "/login": "pages/login.html",
+  "/_app": "pages/_app.js",
   "/": "pages/index.html",
   "/profile": "pages/profile.html",
+  "/login": "pages/login.html",
   "/skills": "pages/skills.html",
+  "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }

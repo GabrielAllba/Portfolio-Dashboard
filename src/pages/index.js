@@ -37,7 +37,7 @@ export default function Home() {
                     width={1000}
                     height={1000}
                     alt="image"
-                    quality="100"
+                    
                   ></Image>
                 </div>
                 <h3>Gabriel Allba Shemi Yuma</h3>
